@@ -15,7 +15,7 @@ Original file is located at
 # # 1. Load and Clean Data
 # @st.cache_data
 # def load_data():
-#     df = pd.read_csv("songs_2000_2020_50k.csv")
+#     df = pd.read_csv("/content/archive (5).zip")
 #     df.columns = df.columns.str.strip() # Fixes the hidden spaces
 #     # Lowercase column names to match your latest code snippet
 #     df.columns = [col.lower().replace(' ', '_') for col in df.columns]
